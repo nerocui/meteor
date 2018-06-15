@@ -1,0 +1,39 @@
+/* CSS declarations go here */
+.weather-chart{
+    padding-top:25px;
+}
+
+.search-bar{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.google-map{
+    width:100%;
+}
+
+.icon-img{
+    margin-top:20px;
+    height:80px;
+    width:80px;
+}
+
+.table{
+    color:white;
+}
+
+
+
+tr:hover{
+    background:darkcyan;
+}
+
+
+.title-container{
+    display:flex;
+}
+
+.title-text{
+    margin-top:40px;
+    margin-left:15px;
+}
