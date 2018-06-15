@@ -16,7 +16,7 @@ class WeatherList extends Component {
             const w = 250;
             const h = 160;
             return (
-                <tr key={cityData.city.name} className="col-12 col-md-12 col-sm-12 col-lg-12">
+                <tr key={cityData.city.name} className="col-12 col-md-12 col-sm-12 col-lg-12 list-item">
                     <td className="col-12 col-sm-12 col-lg-3 col-md-3" >
                         <GoogleMap cityName={cityData.city.name}  className="google-map"/>
                     </td>

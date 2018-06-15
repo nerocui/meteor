@@ -19,8 +19,10 @@ export default class WeatherChart extends Component {
                     <SparklinesLine color={this.props.color}/>
                     <SparklinesReferenceLine type="avg" />
                 </Sparklines>
-                <div>High of {this.max(this.props.data)}</div> 
-                <div>Low of {this.min(this.props.data)}</div>
+                <div className="weather-chart__data">
+                    <div className="weather-chart__data-item">High of {this.max(this.props.data)}</div> 
+                    <div className="weather-chart__data-item">Low of {this.min(this.props.data)}</div>
+                </div>
             </div>
         );
     }

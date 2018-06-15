@@ -18,14 +18,26 @@
     width:80px;
 }
 
-.table{
-    color:white;
+.weather-chart__data{
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-chart__data-item{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    width: auto;
+    margin:5px;
+    overflow-wrap: break-word;
 }
 
 
-
 tr:hover{
-    background:darkcyan;
+    background:rgb(181, 212, 212);
 }
 
 
@@ -36,4 +48,11 @@ tr:hover{
 .title-text{
     margin-top:40px;
     margin-left:15px;
+}
+
+.list-item{
+    background-color: rgb(219, 245, 231);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
